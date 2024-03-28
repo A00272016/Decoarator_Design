@@ -1,4 +1,4 @@
-﻿namespace MyDecorator;
+﻿
 class Program
 {
    
