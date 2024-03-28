@@ -6,12 +6,12 @@ class Program
     {
         component_deco<string> component = new ConcreteComponent();
 
-        var plainDeco = new PlainDecorator(component);
-        var upperCaseDeco = new UpperCaseDecorator(component);
-        var colorDeco = new ColorDecorator(component);
+        var plain_deco = new PlainDecorator(component);
+        var Upper_deco = new UpperCaseDecorator(component);
+        var Color_deco = new ColorDecorator(component);
 
-        Console.WriteLine(plainDeco.GetText());
-        Console.WriteLine(upperCaseDeco.GetText());
-        Console.WriteLine(colorDeco.GetText());
+        Console.WriteLine(plain_deco.GetText());
+        Console.WriteLine(Upper_deco.GetText());
+        Console.WriteLine(Color_deco.GetText());
     }
 }
